@@ -1,0 +1,10 @@
+@keyframes leftToRight{
+  0% {
+    left: -1000px;
+    opacity: 0%;
+  }
+  100% {
+    left: -20;
+    opacity: 100%;
+  }
+}

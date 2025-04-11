@@ -1,0 +1,34 @@
+@font-face {
+  font-family: lufgaBold;
+  src: url(/assets/fonts/LufgaBold.ttf);
+}
+
+@font-face {
+  font-family: lufgaMedium;
+  src: url(/assets/fonts/LufgaMedium.ttf);
+}
+
+@font-face {
+  font-family: lufgaMRegular;
+  src: url(/assets/fonts/LufgaRegular.ttf);
+}
+
+@font-face {
+  font-family: lufgaMSemiBold;
+  src: url(/assets/fonts/LufgaSemiBold.ttf);
+}
+
+@font-face {
+  font-family: urbanistBold;
+  src: url(/assets/fonts/UrbanistBold.ttf);
+}
+
+@font-face {
+  font-family: urbanistSemiBold;
+  src: url(/assets/fonts/UrbanistSemiBold.ttf);
+}
+
+@font-face {
+  font-family: urbanistMedium;
+  src: url(/assets/fonts/UrbanistMedium.ttf);
+}

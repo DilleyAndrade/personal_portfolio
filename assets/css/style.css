@@ -1,0 +1,29 @@
+@import url('/assets/css/fonts.css');
+@import url('/assets/css/menuMobile.css');
+
+:root {
+  --mainColor: #297DDD;
+  --hoverMainColor: #3593FF;
+  --darkColor: #171717;
+  --whiteColor: #ffffff;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'lufgaBold';
+}
+
+.container {
+  padding: 0px 10px;
+}
+
+
+.hide {
+  display: none;
+}

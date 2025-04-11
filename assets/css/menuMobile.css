@@ -1,0 +1,43 @@
+.navMenuMobile {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: var(--darkColor);
+  border-radius: 200px;
+}
+
+.profileMenuMobile img{
+  width: 70px;
+  border-radius: 100%;
+}
+
+
+.burgerMenu {
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: var(--mainColor);
+  width: max-content;
+  border-radius: 100%;
+  border: none;
+  width: 70px;
+  height: 70px;
+}
+
+.burgerLine {
+  width: 45px;
+  height: 6px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.burgerLineCenter {
+  width: 30px;
+  height: 6px;
+  background-color: white;
+  border-radius: 30px;
+}

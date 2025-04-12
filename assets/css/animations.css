@@ -1,21 +1,10 @@
 @keyframes leftToRight{
   0% {
-    left: -1000px;
+    left: -200px;
     opacity: 0%;
   }
   100% {
-    left: -20;
+    left: 0px;
     opacity: 100%;
-  }
-}
-
-@keyframes rightToLeft{
-  0% {
-    left: -20px;
-    opacity: 100%;
-  }
-  100% {
-    left: -10000;
-    opacity: 0%;
   }
 }

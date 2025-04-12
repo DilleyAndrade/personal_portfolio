@@ -58,21 +58,37 @@
   margin-top: 10px;
 }
 
+.menuMobileContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactText {
+  text-align: center;
+}
+
+
+
 .bgBlack{
-  padding: 20px 10px 0 60px;
+  padding-top: 30px;
   background-color: var(--darkColor);
   height: 100vh;
-  width: 100%;
-  border-radius: 0px 20px 0px 0px ;
-  position: fixed;
-  left: -40px;
-  z-index: 40;
+  border-radius: 20px;
   animation: leftToRight .5s;
+  width: 100%;
+  position: relative;
+  border-right: solid 10px var(--mainColor);
+}
 
+.bgBlack nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 .bgBlack nav ul li{
-  padding-top: 10px;
   font-size: 2rem;
   list-style: none;
   font-family: 'lufgaBold';
@@ -84,18 +100,6 @@
 
 .bgBlack a:hover{
   color: var(--mainColorHover);
-}
-
-.bgBlue{
-  padding: 0 10px 0 0;
-  background-color: var(--mainColor);
-  height: 100vh;
-  width: 100%;
-  border-radius: 0px 20px 0px 0px ;
-  position: fixed;
-  left: -10px;
-  animation: leftToRight .3s;
-  z-index: 30;
 }
 
 .menuMobileContact {

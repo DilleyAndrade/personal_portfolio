@@ -2,11 +2,9 @@ let openMenuMobile = document.querySelector('.burgerMenu')
 let navMenuMobile = document.querySelector('.navMenuMobile')
 let menuMobileNav = document.querySelector('.menuMobileNav')
 
+openMenuMobile.addEventListener('click', openCloseNav)
+menuMobileNav.addEventListener('click', openCloseNav)
 
-openMenuMobile.addEventListener('click', () => {
+function openCloseNav() {
   navMenuMobile.classList.toggle('hide')
-})
-
-menuMobileNav.addEventListener('click', () => {
-  navMenuMobile.classList.toggle('hide')
-})
+}

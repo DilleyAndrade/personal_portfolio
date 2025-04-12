@@ -8,3 +8,14 @@
     opacity: 100%;
   }
 }
+
+@keyframes rightToLeft{
+  0% {
+    left: -20px;
+    opacity: 100%;
+  }
+  100% {
+    left: -10000;
+    opacity: 0%;
+  }
+}

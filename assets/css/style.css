@@ -7,7 +7,7 @@
   --mainColorHover: #3593FF;
   --darkColor: #171717;
   --whiteColor: #ffffff;
-
+  --grayColor: #98A2B3;
 }
 
 * {
@@ -22,6 +22,26 @@ body {
 
 a{
   text-decoration: none;
+}
+
+h1{
+  font-size: 5.938rem;
+}
+
+h2{
+  font-size: 4rem;
+}
+
+h3{
+  font-size: 3rem;
+}
+
+h4{
+  font-size: 1.563rem;
+}
+
+h5{
+  font-size: 1.25rem;
 }
 
 .container {

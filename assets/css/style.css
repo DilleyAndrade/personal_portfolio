@@ -2,11 +2,13 @@
 @import url('/assets/css/menuMobile.css');
 @import url('/assets/css/animations.css');
 @import url('/assets/css/breakPoints.css');
+@import url('/assets/css/menuDesktop.css');
 
 :root {
   --mainColor: #297DDD;
   --mainColorHover: #3593FF;
   --darkColor: #171717;
+  --darkColorHover: #3a3a3a;
   --whiteColor: #ffffff;
   --grayColor: #98A2B3;
 }
@@ -19,7 +21,6 @@
 
 body {
   font-family: 'lufgaBold';
-  overflow: hidden;
 }
 
 a{
@@ -45,7 +46,6 @@ h4{
 h5{
   font-size: 1.25rem;
 }
-
 
 
 .hide {

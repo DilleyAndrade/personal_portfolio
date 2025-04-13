@@ -8,3 +8,14 @@
     opacity: 100%;
   }
 }
+
+@keyframes topToBottom {
+  0%{
+    top: -30px;
+    opacity: 0%;
+  }
+  100%{
+    top: 0px;
+    opacity: 100%;
+  }
+}

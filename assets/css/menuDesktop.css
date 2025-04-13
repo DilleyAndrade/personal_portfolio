@@ -1,0 +1,92 @@
+.dektopNavegation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.menuDesktopNav {
+  margin-top: 20px;
+  background-color: var(--darkColor);
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 60px;
+  & img {
+    width: 50px;
+  }
+}
+
+.menuDesktopNav nav {
+  width: 100%;
+}
+
+.menuDesktopNav nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.menuDesktopNav .active{
+  text-decoration: none;
+  color: var(--whiteColor);
+  background-color: var(--mainColor);
+  padding: 15px;
+  border-radius: 60px;
+  font-family: 'lufgaBold';
+}
+
+.menuDesktopNav .navDesktop {
+  text-decoration: none;
+  color: var(--whiteColor);
+  background-color: var(--blackColor);
+  padding: 15px;
+  border-radius: 60px;
+  font-family: 'lufgaMRegular';
+
+}
+
+ .menuDesktopNav .navDesktop:hover {
+  background-color: var(--darkColorHover);
+  transition-duration: .3s;
+}
+
+.logoDilley{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 160px;
+  height: max-content;
+  transition-duration: 1s;
+}
+
+.logoDilley figure {
+  display: flex;
+  align-items: center;
+}
+
+.textLogo1, .textLogo2 {
+  position: relative;
+  color: var(--whiteColor);
+  animation: topToBottom .5s;
+}
+
+.textLogo2 {
+  & h6 {
+    font-family: 'lufgaMRegular';
+    color: var(--grayColor);
+    font-size: 15px;
+  }
+  & h5 {
+    font-size: 15px;
+  }
+}
+
+.logoDilley {
+  cursor:default;
+}

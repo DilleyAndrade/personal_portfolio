@@ -1,6 +1,7 @@
 .headerMenuMobile{
   position: fixed;
   width: 100%;
+  height: 100vh;
   z-index: 50;
 }
 
@@ -12,6 +13,11 @@
   padding: 5px;
   background-color: var(--darkColor);
   border-radius: 200px;
+}
+
+.profileMenuMobile {
+  display: flex;
+  align-items: center;
 }
 
 .profileMenuMobile img{
@@ -38,6 +44,10 @@
 .burgerMenu:hover {
   background-color: var(--mainColorHover);
   transition-duration: .3s;
+  & .burgerLineCenter {
+    width: 45px;
+    transition-duration: .3s;
+  }
 }
 
 .burgerLine {
